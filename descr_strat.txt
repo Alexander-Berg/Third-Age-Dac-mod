@@ -1206,6 +1206,106 @@ settlement
 	}
 }
 
+settlement castle
+{
+	level village
+	region Pukel_Gap_Province
+
+	year_founded 0
+	population 177
+	plan_set default_set
+	faction_creator sicily
+
+	building
+	{
+		type hinterland_green_book_03 green_book_pukel_lands
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+}
+
+settlement
+{
+	level large_city
+	region East_Osgiliath_Province
+
+	year_founded 0
+	population 300
+	plan_set default_set
+	faction_creator united
+
+	building
+	{
+		type hinterland_green_book_06 green_book_osgiliath
+	}
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement castle
+{
+	level town
+	region Ithilien_Province
+
+	year_founded 0
+	population 251
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_green_book_07 green_book_Ithilien
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level town
+	region Andrast_Cape_Province
+
+	year_founded 0
+	population 1344
+	plan_set default_set
+	faction_creator sicily
+
+	building
+	{
+		type hinterland_green_book_08 green_book_Andrast
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+}
+
+
 settlement
 {
 	level town
@@ -1658,6 +1758,29 @@ settlement castle
 	}
 }
 
+settlement
+{
+	level town
+	region South_Ithilien_Province
+
+	year_founded 0
+	population 216
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_green_book_07 green_book_Ithilien
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 character	Denethor, named character, male, leader, age 50, x 324, y 217, portrait Denethor, battle_model denethor, hero_ability IRON_FIST, label denethor_1
 traits		Denethor 1, CustomBG 1, Hero 1, DunedainRace 1, Gondorian 1, FactionLeaderCustom 1, HeroAbilityIronFist 1, RenownLegacy 1, GoodCommander 2, NaturalMilitarySkill 1, PoliticsSkill 2, PietyStarter 1, AnorStone 1
 ancillaries	steward_gondor, drillmaster, gondorian_armour, human_overseer, anor_stone
@@ -1771,6 +1894,8 @@ traits		DunedainRace 1, Gondorian 1, FathersLegacy 1, GoodAmbusher 2, GoodComman
 army
 unit		Gondor Bodyguard				exp 2 armour 0 weapon_lvl 0
 unit		Gondor Militia					exp 0 armour 0 weapon_lvl 0
+
+
 
 character	Borthor, spy, male, age 20, x 324, y 219
 traits		DunedainRace 1, Gondorian 1, SpySkill 4, NaturalSpySkill 1
@@ -1894,6 +2019,26 @@ settlement castle
 	building
 	{
 		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Edhellond_Province
+
+	year_founded 0
+	population 355
+	plan_set default_set
+	faction_creator scripts
+
+	building
+	{
+		type hinterland_green_book_07 green_book_belfalas
+	}
+	building
+	{
+		type core_building stone_wall
 	}
 }
 
@@ -2067,7 +2212,9 @@ character	Baragund, named character, male, age 22, x 270, y 163, portrait Baragu
 traits		DunedainRace 1, Amrothian 1, GoodCommander 1, GoodTrader 1, KindRuler 2, LoyaltyStarter 1, PietyStarter 1, StrategyChivalryGood 1
 army
 unit		Sea-ward Spearmen	    exp 1 armour 1 weapon_lvl 0
-unit		Gondor Militia	exp 1 armour 0 weapon_lvl 0
+unit		Gondor Militia	        exp 1 armour 0 weapon_lvl 0
+
+
 
 character	Pelendur, admiral, male, age 32, x 243, y 192
 traits		Hero 1, Sailor 5, CheckAdmiral 1
@@ -2076,6 +2223,8 @@ army
 unit		Gondor Ship					exp 4 armour 0 weapon_lvl 0
 unit		Gondor Boat					exp 1 armour 0 weapon_lvl 0
 unit		Gondor Boat					exp 1 armour 0 weapon_lvl 0
+
+
 
 character	Baimeldir, admiral, male, age 26, x  264, y 158
 traits		Hero 1, Sailor 4, CheckAdmiral 1
@@ -2088,6 +2237,8 @@ unit		Gondor Boat					exp 1 armour 0 weapon_lvl 0
 character	Beregond, diplomat, male, age 24, x 284, y 189
 traits		DunedainRace 1, Amrothian 1, GoodDiplomat 5, NaturalDiplomatSkill 1, AgentPiety 1
 ancillaries	da_diplomat, swan_knight
+
+
 
 character_record	Angelimir, male, age 114, dead 3, past_leader
 character_record	Malrisel, female, age 113, dead 4, never_a_leader
@@ -2113,6 +2264,8 @@ ai_label default
 ;ai_label		rohan
 denari			10000
 denari_kings_purse	1000
+
+
 
 settlement
 {
@@ -2163,6 +2316,41 @@ settlement
 	building
 	{
 		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level village
+	region West_Wold_Province
+
+	year_founded 0
+	population 168
+	plan_set default_set
+	faction_creator aztecs
+
+	building
+	{
+		type hinterland_green_book_08 green_book_Fangorn
+	}
+} 
+
+settlement ;DONE
+{
+	level town
+	region Wold_Province
+
+	year_founded 0
+	population 636
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_green_book_05 green_book_Wold
+	}
+	building
+	{
+		type core_building wooden_pallisade
 	}
 }
 
@@ -2447,6 +2635,7 @@ army
 unit		Meduseld Doorwards				exp 2 armour 0 weapon_lvl 1
 unit		Peasant Militia				exp 1 armour 0 weapon_lvl 0
 unit		Eorling Archers				exp 1 armour 0 weapon_lvl 0
+
 
 character	Cynegels, spy, male, age 22, x 257, y 249
 traits		GoodManRace 1, Rohirrim 1, SpySkill 4, NaturalSpySkill 1
@@ -2748,6 +2937,354 @@ settlement
 
 settlement
 {
+	level town
+	region Girithlin_Province
+
+	year_founded 0
+	population 154
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_green_book_02 green_book_Minhiriath
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement
+{
+	level town
+	region Suduri_Province
+
+	year_founded 0
+	population 945
+	plan_set default_set
+	faction_creator normans
+	building
+	{
+		type hinterland_green_book_02 green_book_Minhiriath
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+
+settlement
+{
+	level large_town
+	region Metraith_Province
+
+	year_founded 0
+	population 265
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_green_book_02 green_book_cardolan
+	}
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement castle
+{
+	level town
+	region Arthedain_Rammas_Province
+
+	year_founded 0
+	population 176
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_green_book_01 green_book_arthedain
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement
+{
+	level large_city
+	region Tharbad_Province
+
+	year_founded 0
+	population 425
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_green_book_02 green_book_cardolan
+	}
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type hinterland_tharbad_bridge ruined_bridge
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement
+{
+	level town
+	region Rhaglaw_Province
+
+	year_founded 0
+	population 650
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_green_book_01 green_book_Rhudaur
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement castle
+{
+	level town
+	region East_Cardolan_Province
+
+	year_founded 0
+	population 221
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_green_book_02 green_book_Minhiriath
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement
+{
+	level village
+	region Central_Minhiriath_Province
+
+	year_founded 0
+	population 371
+	plan_set default_set
+	faction_creator aztecs
+	building
+	{
+		type hinterland_green_book_02 green_book_Minhiriath
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement castle
+{
+	level village
+	region Far_Arthedain_Province
+
+	year_founded 0
+	population 189
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_green_book_01 green_book_arthedain
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement castle
+{
+	level village
+	region Wilishar_Province
+
+	year_founded 0
+	population 264
+	plan_set default_set
+	faction_creator aztecs
+	building
+	{
+		type hinterland_green_book_02 green_book_cardolan
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement
+{
+	level village
+	region Lonehills_Province
+
+	year_founded 0
+	population 382
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type hinterland_green_book_02 green_book_cardolan
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement
+{
+	level village
+	region Emyn_Beraid_Province
+
+	year_founded 0
+	population 191
+	plan_set default_set
+	faction_creator slave
+
+	building
+	{
+		type hinterland_green_book_01 green_book_shire
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_palantir elostirion_palantir
+	}
+	building
+	{
+		type hinterland_unique4 hobbit
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+
+
+settlement
+{
+	level village
+	region Evendim_Province
+
+	year_founded 0
+	population 288
+	plan_set default_set
+	faction_creator saxons
+
+	building
+	{
+		type hinterland_green_book_01 green_book_arthedain
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement castle
+{
+	level village
+	region Faerdor_Province
+
+	year_founded 0
+	population 126
+	plan_set default_set
+	faction_creator sicily
+	building
+	{
+		type hinterland_green_book_02 green_book_cardolan
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+
+settlement
+{
 	level village
 	region Weather_Hills_Province
 
@@ -2777,6 +3314,58 @@ settlement
 		type temple_gondor_academic gondor_alchemists_lab
 	}
 }
+
+settlement
+{
+	level village
+	region Enedwaith_Province
+
+	year_founded 0
+	population 452
+	plan_set default_set
+	faction_creator aztecs
+
+	building
+	{
+		type hinterland_green_book_02 green_book_eryn_vorn
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+}
+
+settlement
+{
+	level town
+	region South_Ered_Luin_Province
+
+	year_founded 0
+	population 300
+	plan_set default_set
+	faction_creator united
+
+	building
+	{
+		type hinterland_green_book_01 green_book_Ered_Luin
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}	
+	building
+	{
+		type city_hall town_hall
+	}
+} 
 
 character	Aragorn, named character, male, leader, age 38, x 216, y 358, portrait Aragorn, battle_model aragorn, hero_ability STRIDER, label aragorn_1
 traits		Aragorn 1, CustomBG 1, Hero 1, DunedainRace 1, DunedainRanger 1, HouseElendil 1, FactionLeaderCustom 1, HeroAbilityAragorn 1, Brave 2, UmbarPortRaid 1, AragornJourney 1, GoodAmbusher 1, GoodAttacker 2, GoodCommander 4, InspiringSpeaker 1, Just 2, KindRuler 3, PietyStarter 1, NaturalMilitarySkill 3, LogisticalSkill 2, Scout 1, Energetic 1, ElvenWife 1
@@ -2812,6 +3401,8 @@ unit		Arthedain Footmen				exp 2 armour 0 weapon_lvl 0
 unit		Arthedain Footmen				exp 2 armour 0 weapon_lvl 0
 unit		Dunedain Wardens				exp 2 armour 0 weapon_lvl 0
 unit		Dunedain Wardens				exp 2 armour 0 weapon_lvl 0
+
+
 
 character_record	Arador, male, age 150, dead 33, past_leader
 character_record	Laerwen, female, age 120, dead 30, never_a_leader
@@ -2889,25 +3480,40 @@ settlement
 
 settlement
 {
-	level village
-	region Celduin_Province
+	level town
+	region Celduin_Far_Province
 
 	year_founded 0
-	population 684
+	population 742
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type hinterland_green_book_04 green_book_Logathavuld
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+
+settlement
+{
+	level town
+	region Far_Rhovanion_Province
+
+	year_founded 0
+	population 426
 	plan_set default_set
 	faction_creator milan
-
 	building
 	{
-		type hinterland_green_book_03 green_book_Dale
+		type hinterland_green_book_04 green_book_Rhovanion
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type temple_academic alchemists_lab
+		type core_building wooden_pallisade
 	}
 }
 
@@ -2942,6 +3548,92 @@ settlement
 		type temple_academic alchemists_lab
 	}
 }
+
+settlement
+{
+	level village
+	region North_Khand_Province
+
+	year_founded 0
+	population 371
+	plan_set default_set
+	faction_creator aztecs
+
+	building
+	{
+		type hinterland_green_book_04 green_book_Logathavuld
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level village
+	region Celduin_Far_East_Province
+
+	year_founded 0
+	population 699
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_green_book_04 green_book_Logathavuld
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level village
+	region Celduin_North_Province
+
+	year_founded 0
+	population 631
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_green_book_03 green_book_Dale
+	}
+	building
+	{
+		type core_castle_building motte_and_bailey
+	}
+}
+
+
+
+settlement
+{
+	level village
+	region Celduin_Province
+
+	year_founded 0
+	population 684
+	plan_set default_set
+	faction_creator milan
+
+	building
+	{
+		type hinterland_green_book_03 green_book_Dale
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type temple_academic alchemists_lab
+	}
+}
+
+
 
 settlement
 {
@@ -3034,6 +3726,8 @@ unit		Lake-town Pikemen					exp 2 armour 1 weapon_lvl 1
 unit		Dalian Longbowmen					exp 0 armour 2 weapon_lvl 0
 unit		Dalian Swordsmen				exp 0 armour 2 weapon_lvl 0
 
+
+
 character	Thiudamir, spy, male, age 20, x 360, y 378
 traits		GoodManRace 1, Dalian 1, SpySkill 4, NaturalSpySkill 1
 
@@ -3041,6 +3735,7 @@ character	Bondi, admiral, male, age 44, x 340, y 409
 traits		Sailor 4, CheckAdmiral 1
 army
 unit		Human Boat					exp 2 armour 0 weapon_lvl 0
+
 
 character_record	Bard, male, age 78, dead 3, past_leader
 character_record	Beawyn, female, age 75, dead 38, never_a_leader
@@ -3061,6 +3756,8 @@ ai_label default
 ;ai_label		vale
 denari			14000
 denari_kings_purse	1500
+
+
 
 settlement
 {
@@ -3147,6 +3844,25 @@ settlement castle
 	building
 	{
 		type temple_c_academic alchemists_lab
+	}
+}
+
+settlement
+{
+	level village
+	region Wrakyaburg_Province
+
+	year_founded 0
+	population 258
+	plan_set default_set
+	faction_creator aztecs
+	building
+	{
+		type hinterland_green_book_05 green_book_anduin_vale
+	}
+	building
+	{
+		type barracks town_guard
 	}
 }
 
@@ -3354,7 +4070,9 @@ ancillaries	beorning_axe
 army
 unit		Skin-Changers				exp 3 armour 0 weapon_lvl 0
 unit		Valesmen					exp 1 armour 0 weapon_lvl 0
-unit		Woodmen Trackers				exp 1 armour 0 weapon_lvl 0
+unit		Woodmen Trackers			exp 1 armour 0 weapon_lvl 0
+
+
 
 character	Radagast, diplomat, male, age 25, x 300, y 344, portrait Radagast
 traits		Radagast 1, Hero 1, MaiaRace 1, GoodDiplomat 5, PersonalSecurityLevel 2, Secretive 4, AgentPiety 1
@@ -3425,6 +4143,159 @@ settlement
 		type temple_academic alchemists_lab
 	}
 }
+
+settlement
+{
+	level large_town
+	region Centre_Rhovanion_Province
+
+	year_founded 0
+	population 821
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type hinterland_green_book_04 green_book_Rhovanion
+	}
+	building
+	{
+		type hinterland_roads roads
+	}	
+	building
+	{
+		type core_building wooden_wall
+	}
+}
+
+settlement
+{
+	level village
+	region Nurunk_Province
+
+	year_founded 0
+	population 498
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_green_book_04 green_book_Rhovanion
+	}
+}
+
+settlement castle
+{
+	level town
+	region Staddle_Province
+
+	year_founded 0
+	population 548
+	plan_set default_set
+	faction_creator milan
+
+	building
+	{
+		type hinterland_green_book_04 green_book_Rhovanion
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type forest_camps lumber_camp
+	}
+}
+
+settlement castle ;DONE
+{
+	level town
+	region North_Rhovanion_Province
+
+	year_founded 0
+	population 566
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type hinterland_green_book_04 green_book_Rhovanion
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement ;DONE
+{
+	level village
+	region Rhawburg_Province
+
+	year_founded 0
+	population 598
+	plan_set default_set
+	faction_creator milan
+	building
+	{
+		type hinterland_green_book_04 green_book_Rhovanion
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+
+settlement
+{
+	level town
+	region Rhovanion_Province
+
+	year_founded 0
+	population 336
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type hinterland_green_book_04 green_book_Rhovanion
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Erech_Province
+
+	year_founded 0
+	population 917
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type hinterland_green_book_04 green_book_Rhovanion
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+
 
 settlement castle
 {
@@ -3568,6 +4439,8 @@ unit		Avari Warriors			exp 1 armour 0 weapon_lvl 1
 unit		Avari Spearmen						exp 1 armour 0 weapon_lvl 0
 unit		Avari Shadows 			exp 1 armour 0 weapon_lvl 0
 
+
+
 character_record	Kelai, female, age 64, dead 3, never_a_leader
 character_record	Ranulf, male, age 66, dead 3, past_leader
 character_record	Asta, female, age 26, alive, never_a_leader
@@ -3638,6 +4511,127 @@ settlement
 	}
 }
 
+settlement castle
+{
+	level town
+	region Logathavuld_Province
+
+	year_founded 0
+	population 345
+	plan_set default_set
+	faction_creator scotland
+
+	building
+	{
+		type hinterland_green_book_04 green_book_Logathavuld
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+}
+
+settlement 
+{
+	level town
+	region Grey_Foothills_Province
+
+	year_founded 0
+	population 255
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type hinterland_green_book_03 green_book_grey_mountains
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level large_city
+	region Grey_Mountains_Province
+
+	year_founded 0
+	population 2135
+	plan_set default_set
+	faction_creator ireland
+
+	building
+	{
+		type hinterland_green_book_03 green_book_grey_mountains
+	}
+	building
+	{
+		type core_castle_building citadel
+	}
+	building
+	{
+		type castle_barracks garrison_quarters
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement castle
+{
+	level city
+	region Withered_Province
+
+	year_founded 0
+	population 350
+	plan_set default_set
+	faction_creator slave
+
+	building
+	{
+		type hinterland_green_book_03 green_book_Withered_Heath
+	}
+	building
+	{
+		type core_castle_building fortress
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level village
+	region South_Logathavuld_Province
+
+	year_founded 0
+	population 176
+	plan_set default_set
+	faction_creator aztecs
+
+	building
+	{
+		type hinterland_green_book_04 green_book_Logathavuld
+	}
+		building
+	{
+		type hinterland_roads roads
+	}
+}
+
+
+
 settlement
 {
 	level huge_city
@@ -3702,6 +4696,8 @@ traits		Gimli 1, CustomBG 1, Hero 1, DwarvenRace 1, Longbeard 1, HeroAbilityDwar
 ancillaries	iron_guard, dwarven_coat, dwarven_helmet, dwarven_shield, gimlis_axes
 army
 unit		Axeguard of Erebor				exp 5 armour 2 weapon_lvl 0
+
+
 
 character	Rurin, diplomat, male, age 24, x 339, y 421, portrait Grain
 traits		DwarvenRace 1, GoodDiplomat 4, NaturalDiplomatSkill 1, AgentPiety 1
@@ -3974,49 +4970,6 @@ ai_label default
 denari			10000
 denari_kings_purse	2000
 
-settlement
-{
-	level city
-	region Mithlond_Province
-
-	year_founded 0
-	population 761
-	plan_set default_set
-	faction_creator saxons
-	building
-	{
-		type hinterland_green_book_01 green_book_lindon
-	}
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type teleri_barracks teleri_barracks
-	}
-	building
-	{
-		type temple_art artist_studio
-	}
-	building
-	{
-		type port naval_drydock
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 settlement castle
 {
 	level large_city
@@ -4113,6 +5066,133 @@ settlement
 	}
 }
 
+
+settlement
+{
+	level village
+	region Ettenmoors_Province
+
+	year_founded 0
+	population 551
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type hinterland_green_book_01 green_book_ettenmoors
+	}
+	building
+	{
+		type hinterland_roads roads
+	}	
+}
+
+settlement
+{
+	level village
+	region Eregion_Province
+
+	year_founded 0
+	population 420
+	plan_set default_set
+	faction_creator scripts
+	building
+	{
+		type hinterland_green_book_02 green_book_Eregion
+	}
+	building
+	{
+		type hinterland_gwaith_i_mirdain_guild gwaith_i_mirdain_guild
+	}
+}
+
+settlement
+{
+	level village
+	region Rhudaur_Province
+
+	year_founded 0
+	population 680
+	plan_set default_set
+	faction_creator aztecs
+
+	building
+	{
+		type hinterland_green_book_02 green_book_Eregion
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement castle
+{
+	level town
+	region Mitheithel_Province
+
+	year_founded 0
+	population 392
+	plan_set default_set
+	faction_creator turks
+
+	building
+	{
+		type hinterland_green_book_01 green_book_Rhudaur
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Mithlond_Province
+
+	year_founded 0
+	population 761
+	plan_set default_set
+	faction_creator saxons
+	building
+	{
+		type hinterland_green_book_01 green_book_lindon
+	}
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type teleri_barracks teleri_barracks
+	}
+	building
+	{
+		type temple_art artist_studio
+	}
+	building
+	{
+		type port naval_drydock
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+
 settlement
 {
 	level large_town
@@ -4188,6 +5268,7 @@ army
 unit		Calaquendi Lords				exp 4 armour 0 weapon_lvl 0
 unit		Lindar Guards				exp 0 armour 0 weapon_lvl 0
 
+
 character	Maldor, admiral, male, age 23, x 73, y 373
 traits		Hero 1, CheckAdmiral 1, LindarAdmiral 1, Sailor 5
 ancillaries	havens_fleet, elven_shipwright
@@ -4195,6 +5276,7 @@ army
 unit		Elven Boat				exp 5 armour 0 weapon_lvl 0
 unit		Elven Boat				exp 2 armour 0 weapon_lvl 0
 unit		Elven Boat				exp 2 armour 0 weapon_lvl 0
+
 
 character_record	Anessathiel, female, age 41, alive, never_a_leader
 character_record	Celebrian, female, age 32, dead 30, never_a_leader
@@ -4272,6 +5354,54 @@ settlement
 
 settlement
 {
+	level town
+	region Pezarsan_Province
+
+	year_founded 0
+	population 647
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type hinterland_green_book_05 green_book_anduin_vale
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement castle
+{
+	level town
+	region Border_Province
+
+	year_founded 0
+	population 572
+	plan_set default_set
+	faction_creator ireland
+	building
+	{
+		type hinterland_green_book_08 green_book_celebrant
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+
+
+settlement
+{
 	level large_town
 	region Lothlorien_Province
 
@@ -4324,6 +5454,7 @@ ancillaries	troops_gala, light_earendil, marchwarden
 army
 unit		Galadhrim Archers			exp 4 armour 1 weapon_lvl 1
 unit		Lorien Archers				exp 1 armour 0 weapon_lvl 0
+
 
 character	Cofniben, spy, male, age 16, x 272, y 325
 traits		ElvenRace 1, NandorSpy 1, SpySkill 4, NaturalSpySkill 1
@@ -4400,6 +5531,97 @@ settlement
 
 settlement
 {
+	level town
+	region East_Mirkwood_Province
+
+	year_founded 0
+	population 317
+	plan_set default_set
+	faction_creator mongols
+
+	building
+	{
+		type hinterland_green_book_05 green_book_Mirkwood
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement castle
+{
+	level town
+	region Central_Mirkwood_Province
+
+	year_founded 0
+	population 276
+	plan_set default_set
+	faction_creator mongols
+
+	building
+	{
+		type hinterland_green_book_05 green_book_Mirkwood
+	}
+	building
+	{
+		type core_castle_building wooden_castle
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+
+settlement
+{
+	level town
+	region Middle_Mirkwood_Province
+
+	year_founded 0
+	population 452
+	plan_set default_set
+	faction_creator saxons
+
+	building
+	{
+		type hinterland_green_book_05 green_book_Mirkwood
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region West_Mirkwood_Province
+
+	year_founded 0
+	population 805
+	plan_set default_set
+	faction_creator mongols
+
+	building
+	{
+		type hinterland_green_book_05 green_book_Mirkwood
+	}
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+
+
+settlement
+{
 	level large_town
 	region South_Elven_Mirkwood_Province
 
@@ -4457,6 +5679,7 @@ army
 unit		Elvenkings Bowguard				exp 5 armour 1 weapon_lvl 1
 unit		Woodland Scouts			exp 2 armour 0 weapon_lvl 0
 unit		Woodland Spearmen			exp 2 armour 0 weapon_lvl 1
+
 
 character	Erudagrian, spy, male, age 16, x 328, y 414
 traits		ElvenRace 1, NandorSpy 1, SpySkill 4, NaturalSpySkill 1
@@ -4524,29 +5747,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level village
-	region Enedwaith_Province
-
-	year_founded 0
-	population 452
-	plan_set default_set
-	faction_creator aztecs
-
-	building
-	{
-		type hinterland_green_book_02 green_book_eryn_vorn
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type temple_orthodox small_church_o
-	}
-}
 
 settlement
 {
@@ -4573,37 +5773,6 @@ settlement
 	building
 	{
 		type temple_orthodox small_church_o
-	}
-}
-
-settlement castle
-{
-	level village
-	region North_Enedwaith_Province
-
-	year_founded 0
-	population 545
-	plan_set default_set
-	faction_creator aztecs
-	building
-	{
-		type hinterland_green_book_03 green_book_Enedwaith
-	}
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-	building
-	{
-		type castle_siege c_ballista_range
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type temple_c_orthodox small_church_o
 	}
 }
 
@@ -5577,6 +6746,21 @@ settlement
 
 settlement
 {
+	level village
+	region Lone_lands_Province
+
+	year_founded 0
+	population 437
+	plan_set default_set
+	faction_creator aztecs
+	building
+	{
+		type hinterland_green_book_03 green_book_Enedwaith
+	}
+}
+
+settlement
+{
 	level town
 	region Duneard_Province
 
@@ -5694,6 +6878,56 @@ settlement
 		type hinterland_roads roads
 	}
 }
+
+settlement
+{
+	level huge_city
+	region High_Pass_Province
+
+	year_founded 0
+	population 2985
+	plan_set default_set
+	faction_creator khand
+
+	building
+	{
+		type hinterland_green_book_03 green_book_misty_mountains
+	}
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building
+	{
+		type hinterland_unique3 goblin_cavern
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+	building
+	{
+		type taverns inn
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building	
+	{
+		type c_equestrian c_stables
+	}	
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+
 
 settlement castle
 {
@@ -5846,6 +7080,8 @@ ai_label default
 denari			10000
 denari_kings_purse	2500
 
+
+
 settlement
 {
 	level huge_city
@@ -5895,6 +7131,34 @@ settlement
 	building
 	{
 		type temple_catholic small_church
+	}
+}
+
+settlement castle
+{
+	level city
+	region Lune_Province
+
+	year_founded 0
+	population 871
+	plan_set default_set
+	faction_creator scripts
+
+	building
+	{
+		type hinterland_green_book_03 green_book_grey_mountains
+	}
+	building
+	{
+		type core_castle_building fortress
+	}
+	building
+	{
+		type castle_hall c_town_hall
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -6637,25 +7901,7 @@ ai_label default
 denari			0
 denari_kings_purse	0
 
-settlement castle
-{
-	level town
-	region Logathavuld_Province
 
-	year_founded 0
-	population 345
-	plan_set default_set
-	faction_creator scotland
-
-	building
-	{
-		type hinterland_green_book_04 green_book_Logathavuld
-	}
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-}
 
 settlement
 {
@@ -6672,6 +7918,7 @@ settlement
 		type hinterland_green_book_03 green_book_misty_mountains
 	}
 }
+
 
 settlement
 {
@@ -6691,49 +7938,24 @@ settlement
 
 settlement castle
 {
-	level city
-	region Withered_Province
+	level village
+	region North_Enedwaith_Province
 
 	year_founded 0
-	population 350
+	population 545
 	plan_set default_set
-	faction_creator slave
-
+	faction_creator aztecs
 	building
 	{
-		type hinterland_green_book_03 green_book_Withered_Heath
+		type hinterland_green_book_03 green_book_Enedwaith
 	}
 	building
 	{
-		type core_castle_building fortress
+		type core_castle_building motte_and_bailey
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-}
-
-settlement castle
-{
-	level large_city
-	region Grey_Mountains_Province
-
-	year_founded 0
-	population 2135
-	plan_set default_set
-	faction_creator ireland
-
-	building
-	{
-		type hinterland_green_book_03 green_book_grey_mountains
-	}
-	building
-	{
-		type core_castle_building citadel
-	}
-	building
-	{
-		type castle_barracks garrison_quarters
+		type castle_siege c_ballista_range
 	}
 	building
 	{
@@ -6741,84 +7963,7 @@ settlement castle
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level village
-	region Wrakyaburg_Province
-
-	year_founded 0
-	population 258
-	plan_set default_set
-	faction_creator aztecs
-	building
-	{
-		type hinterland_green_book_05 green_book_anduin_vale
-	}
-	building
-	{
-		type barracks town_guard
-	}
-}
-
-settlement
-{
-	level village
-	region Eregion_Province
-
-	year_founded 0
-	population 420
-	plan_set default_set
-	faction_creator scripts
-	building
-	{
-		type hinterland_green_book_02 green_book_Eregion
-	}
-	building
-	{
-		type hinterland_gwaith_i_mirdain_guild gwaith_i_mirdain_guild
-	}
-}
-
-settlement castle
-{
-	level town
-	region Andrast_Cape_Province
-
-	year_founded 0
-	population 1344
-	plan_set default_set
-	faction_creator sicily
-
-	building
-	{
-		type hinterland_green_book_08 green_book_Andrast
-	}
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-}
-
-settlement
-{
-	level town
-	region Erech_Province
-
-	year_founded 0
-	population 917
-	plan_set default_set
-	faction_creator scotland
-	building
-	{
-		type hinterland_green_book_04 green_book_Rhovanion
-	}
-	building
-	{
-		type core_building wooden_pallisade
+		type temple_c_orthodox small_church_o
 	}
 }
 
@@ -6846,73 +7991,9 @@ settlement castle
 	}
 }
 
-settlement
-{
-	level town
-	region Middle_Mirkwood_Province
 
-	year_founded 0
-	population 452
-	plan_set default_set
-	faction_creator saxons
 
-	building
-	{
-		type hinterland_green_book_05 green_book_Mirkwood
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
-settlement castle
-{
-	level town
-	region Central_Mirkwood_Province
-
-	year_founded 0
-	population 276
-	plan_set default_set
-	faction_creator mongols
-
-	building
-	{
-		type hinterland_green_book_05 green_book_Mirkwood
-	}
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level town
-	region South_Ered_Luin_Province
-
-	year_founded 0
-	population 300
-	plan_set default_set
-	faction_creator united
-
-	building
-	{
-		type hinterland_green_book_01 green_book_Ered_Luin
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}	
-}
 
 settlement
 {
@@ -6974,89 +8055,6 @@ settlement castle
 	}
 }
 
-settlement
-{
-	level town
-	region East_Mirkwood_Province
-
-	year_founded 0
-	population 317
-	plan_set default_set
-	faction_creator mongols
-
-	building
-	{
-		type hinterland_green_book_05 green_book_Mirkwood
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-}
-
-settlement
-{
-	level city
-	region Edhellond_Province
-
-	year_founded 0
-	population 355
-	plan_set default_set
-	faction_creator scripts
-
-	building
-	{
-		type hinterland_green_book_07 green_book_belfalas
-	}
-	building
-	{
-		type core_building stone_wall
-	}
-}
-
-settlement
-{
-	level village
-	region Emyn_Beraid_Province
-
-	year_founded 0
-	population 191
-	plan_set default_set
-	faction_creator slave
-
-	building
-	{
-		type hinterland_green_book_01 green_book_shire
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_palantir elostirion_palantir
-	}
-	building
-	{
-		type hinterland_unique4 hobbit
-	}
-}
-
-settlement
-{
-	level village
-	region Evendim_Province
-
-	year_founded 0
-	population 288
-	plan_set default_set
-	faction_creator saxons
-
-	building
-	{
-		type hinterland_green_book_01 green_book_arthedain
-	}
-}
 
 settlement
 {
@@ -7105,33 +8103,7 @@ settlement castle
 	}
 }
 
-settlement castle
-{
-	level city
-	region Lune_Province
 
-	year_founded 0
-	population 871
-	plan_set default_set
-	faction_creator scripts
-
-	building
-	{
-		type hinterland_green_book_03 green_book_grey_mountains
-	}
-	building
-	{
-		type core_castle_building fortress
-	}
-	building
-	{
-		type castle_hall c_town_hall
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 settlement
 {
@@ -7150,29 +8122,7 @@ settlement
 }
 
 
-settlement castle
-{
-	level town
-	region Mitheithel_Province
 
-	year_founded 0
-	population 392
-	plan_set default_set
-	faction_creator turks
-
-	building
-	{
-		type hinterland_green_book_01 green_book_Rhudaur
-	}
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 settlement castle
 {
@@ -7218,25 +8168,6 @@ settlement
 	}	
 }
 
-settlement
-{
-	level village
-	region North_Khand_Province
-
-	year_founded 0
-	population 371
-	plan_set default_set
-	faction_creator aztecs
-
-	building
-	{
-		type hinterland_green_book_04 green_book_Logathavuld
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 settlement
 {
@@ -7254,218 +8185,6 @@ settlement
 	}
 }
 
-settlement castle
-{
-	level village
-	region Pukel_Gap_Province
-
-	year_founded 0
-	population 177
-	plan_set default_set
-	faction_creator sicily
-
-	building
-	{
-		type hinterland_green_book_03 green_book_pukel_lands
-	}
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-}
-
-settlement
-{
-	level village
-	region South_Logathavuld_Province
-
-	year_founded 0
-	population 176
-	plan_set default_set
-	faction_creator aztecs
-
-	building
-	{
-		type hinterland_green_book_04 green_book_Logathavuld
-	}
-		building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level town
-	region West_Mirkwood_Province
-
-	year_founded 0
-	population 805
-	plan_set default_set
-	faction_creator mongols
-
-	building
-	{
-		type hinterland_green_book_05 green_book_Mirkwood
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-}
-
-settlement
-{
-	level village
-	region Ettenmoors_Province
-
-	year_founded 0
-	population 551
-	plan_set default_set
-	faction_creator england
-	building
-	{
-		type hinterland_green_book_01 green_book_ettenmoors
-	}
-	building
-	{
-		type hinterland_roads roads
-	}	
-}
-
-settlement castle
-{
-	level town
-	region Ithilien_Province
-
-	year_founded 0
-	population 251
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type hinterland_green_book_07 green_book_Ithilien
-	}
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level town
-	region South_Ithilien_Province
-
-	year_founded 0
-	population 216
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type hinterland_green_book_07 green_book_Ithilien
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level village
-	region Lone_lands_Province
-
-	year_founded 0
-	population 437
-	plan_set default_set
-	faction_creator aztecs
-	building
-	{
-		type hinterland_green_book_03 green_book_Enedwaith
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tharbad_Province
-
-	year_founded 0
-	population 425
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type hinterland_green_book_02 green_book_cardolan
-	}
-	building
-	{
-		type core_building large_stone_wall
-	}
-	building
-	{
-		type hinterland_tharbad_bridge ruined_bridge
-	}
-	building
-	{
-		type hinterland_roads paved_roads
-	}
-}
-
-settlement castle
-{
-	level village
-	region Faerdor_Province
-
-	year_founded 0
-	population 126
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type hinterland_green_book_02 green_book_cardolan
-	}
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-}
-
-settlement
-{
-	level large_town
-	region Metraith_Province
-
-	year_founded 0
-	population 265
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type hinterland_green_book_02 green_book_cardolan
-	}
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 settlement
 {
@@ -7486,131 +8205,7 @@ settlement
 	}
 }
 
-settlement 
-{
-	level town
-	region Grey_Foothills_Province
 
-	year_founded 0
-	population 255
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type hinterland_green_book_03 green_book_grey_mountains
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level town
-	region Rhovanion_Province
-
-	year_founded 0
-	population 336
-	plan_set default_set
-	faction_creator scotland
-	building
-	{
-		type hinterland_green_book_04 green_book_Rhovanion
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Centre_Rhovanion_Province
-
-	year_founded 0
-	population 821
-	plan_set default_set
-	faction_creator scotland
-	building
-	{
-		type hinterland_green_book_04 green_book_Rhovanion
-	}
-	building
-	{
-		type hinterland_roads roads
-	}	
-	building
-	{
-		type core_building wooden_wall
-	}
-}
-
-settlement
-{
-	level town
-	region Celduin_Far_Province
-
-	year_founded 0
-	population 742
-	plan_set default_set
-	faction_creator scotland
-	building
-	{
-		type hinterland_green_book_04 green_book_Logathavuld
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-}
-
-settlement castle
-{
-	level village
-	region Celduin_North_Province
-
-	year_founded 0
-	population 631
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type hinterland_green_book_03 green_book_Dale
-	}
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-}
-
-settlement
-{
-	level town
-	region Far_Rhovanion_Province
-
-	year_founded 0
-	population 426
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type hinterland_green_book_04 green_book_Rhovanion
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-}
 
 settlement castle ;DONE
 {
@@ -7654,28 +8249,7 @@ settlement ;DONE
 	}	
 }
 
-settlement castle ;DONE
-{
-	level town
-	region North_Rhovanion_Province
 
-	year_founded 0
-	population 566
-	plan_set default_set
-	faction_creator scotland
-	building
-	{
-		type hinterland_green_book_04 green_book_Rhovanion
-	}
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 settlement castle ;DONE
 {
@@ -7723,24 +8297,7 @@ settlement castle
 	}
 }
 
-settlement ;DONE
-{
-	level town
-	region Wold_Province
 
-	year_founded 0
-	population 636
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type hinterland_green_book_05 green_book_Wold
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-}
 
 settlement
 {
@@ -7784,20 +8341,7 @@ settlement
 	}
 }
 
-settlement
-{
-	level village
-	region Nurunk_Province
 
-	year_founded 0
-	population 498
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type hinterland_green_book_04 green_book_Rhovanion
-	}
-}
 
 settlement castle
 {
@@ -7818,24 +8362,7 @@ settlement castle
 	}
 }
 
-settlement
-{
-	level village
-	region Celduin_Far_East_Province
 
-	year_founded 0
-	population 699
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type hinterland_green_book_04 green_book_Logathavuld
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 settlement
 {
@@ -7883,146 +8410,17 @@ settlement castle
 	}
 }
 
-settlement
-{
-	level town
-	region Rhaglaw_Province
 
-	year_founded 0
-	population 650
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type hinterland_green_book_01 green_book_Rhudaur
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
 
-settlement
-{
-	level village
-	region Central_Minhiriath_Province
 
-	year_founded 0
-	population 371
-	plan_set default_set
-	faction_creator aztecs
-	building
-	{
-		type hinterland_green_book_02 green_book_Minhiriath
-	}
-}
 
-settlement
-{
-	level town
-	region Suduri_Province
 
-	year_founded 0
-	population 945
-	plan_set default_set
-	faction_creator normans
-	building
-	{
-		type hinterland_green_book_02 green_book_Minhiriath
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type port port
-	}
-}
 
-settlement
-{
-	level town
-	region Girithlin_Province
 
-	year_founded 0
-	population 154
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type hinterland_green_book_02 green_book_Minhiriath
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-}
 
-settlement castle
-{
-	level town
-	region East_Cardolan_Province
 
-	year_founded 0
-	population 221
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type hinterland_green_book_02 green_book_Minhiriath
-	}
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-}
 
-settlement castle
-{
-	level village
-	region Wilishar_Province
 
-	year_founded 0
-	population 264
-	plan_set default_set
-	faction_creator aztecs
-	building
-	{
-		type hinterland_green_book_02 green_book_cardolan
-	}
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-}
-
-settlement castle
-{
-	level town
-	region Border_Province
-
-	year_founded 0
-	population 572
-	plan_set default_set
-	faction_creator ireland
-	building
-	{
-		type hinterland_green_book_08 green_book_celebrant
-	}
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
 settlement
 {
@@ -8062,20 +8460,7 @@ settlement
 	}
 }
 
-settlement
-{
-	level village
-	region Lonehills_Province
 
-	year_founded 0
-	population 382
-	plan_set default_set
-	faction_creator turks
-	building
-	{
-		type hinterland_green_book_02 green_book_cardolan
-	}
-}
 
 settlement
 {
@@ -8093,44 +8478,6 @@ settlement
 	building
 	{
 		type hinterland_farms farms
-	}
-}
-
-settlement castle
-{
-	level village
-	region Far_Arthedain_Province
-
-	year_founded 0
-	population 189
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type hinterland_green_book_01 green_book_arthedain
-	}
-	building
-	{
-		type core_castle_building motte_and_bailey
-	}
-}
-
-settlement castle
-{
-	level town
-	region Arthedain_Rammas_Province
-
-	year_founded 0
-	population 176
-	plan_set default_set
-	faction_creator sicily
-	building
-	{
-		type hinterland_green_book_01 green_book_arthedain
-	}
-	building
-	{
-		type core_castle_building wooden_castle
 	}
 }
 
@@ -8154,41 +8501,9 @@ settlement
 	}
 }
 
-settlement
-{
-	level village
-	region Rhudaur_Province
 
-	year_founded 0
-	population 680
-	plan_set default_set
-	faction_creator aztecs
 
-	building
-	{
-		type hinterland_green_book_02 green_book_Eregion
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
 
-settlement
-{
-	level village
-	region West_Wold_Province
-
-	year_founded 0
-	population 168
-	plan_set default_set
-	faction_creator aztecs
-
-	building
-	{
-		type hinterland_green_book_08 green_book_Fangorn
-	}
-}
 
 settlement
 {
@@ -8283,52 +8598,8 @@ settlement castle
 	}
 }
 
-settlement ;DONE
-{
-	level village
-	region Rhawburg_Province
 
-	year_founded 0
-	population 598
-	plan_set default_set
-	faction_creator milan
-	building
-	{
-		type hinterland_green_book_04 green_book_Rhovanion
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
 
-settlement castle
-{
-	level town
-	region Staddle_Province
-
-	year_founded 0
-	population 548
-	plan_set default_set
-	faction_creator milan
-
-	building
-	{
-		type hinterland_green_book_04 green_book_Rhovanion
-	}
-	building
-	{
-		type core_castle_building wooden_castle
-	}
-	building
-	{
-		type forest_camps lumber_camp
-	}
-}
 
 settlement
 {
@@ -8627,28 +8898,7 @@ settlement
 	}
 }
 
-settlement
-{
-	level town
-	region Pezarsan_Province
 
-	year_founded 0
-	population 647
-	plan_set default_set
-	faction_creator moors
-	building
-	{
-		type hinterland_green_book_05 green_book_anduin_vale
-	}
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
 
 settlement
 {
@@ -8762,41 +9012,7 @@ settlement castle
 	}
 }
 
-settlement
-{
-	level large_city
-	region East_Osgiliath_Province
 
-	year_founded 0
-	population 300
-	plan_set default_set
-	faction_creator united
-
-	building
-	{
-		type hinterland_green_book_06 green_book_osgiliath
-	}
-	building
-	{
-		type core_building large_stone_wall
-	}
-	building
-	{
-		type city_hall town_hall
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads paved_roads
-	}
-}
 
 settlement castle
 {
@@ -8928,53 +9144,7 @@ settlement
 	}
 }
 
-settlement
-{
-	level huge_city
-	region High_Pass_Province
 
-	year_founded 0
-	population 2985
-	plan_set default_set
-	faction_creator khand
-
-	building
-	{
-		type hinterland_green_book_03 green_book_misty_mountains
-	}
-	building
-	{
-		type core_building huge_stone_wall
-	}
-	building
-	{
-		type hinterland_unique3 goblin_cavern
-	}
-	building
-	{
-		type city_hall council_chambers
-	}
-	building
-	{
-		type taverns inn
-	}
-	building
-	{
-		type barracks town_guard
-	}
-	building	
-	{
-		type c_equestrian c_stables
-	}	
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads paved_roads
-	}
-}
 
 settlement
 {
@@ -8997,19 +9167,6 @@ settlement
 }
 ;#;############################# Rebel Generals - Settlements #############################
 
-character	sub_faction england, Golm, general, male, age 29, x 330, y 219
-army
-unit		Uruk Bodyguard				exp 3 armour 0 weapon_lvl 0
-unit		Black Uruks			exp 3 armour 0 weapon_lvl 0
-unit		Black Uruks			exp 3 armour 0 weapon_lvl 0
-unit		Black Uruk Archers				exp 0 armour 0 weapon_lvl 0
-unit		Black Uruk Archers				exp 0 armour 0 weapon_lvl 0
-unit		Orc Archers			exp 0 armour 0 weapon_lvl 0
-unit		Orc Archers			exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband			exp 1 armour 1 weapon_lvl 0
-unit		Raider Warband			exp 1 armour 1 weapon_lvl 0
-unit		Raider Skirmishers			exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction spain, Pathan, general, male, age 29, x 411, y 132, portrait Haradrim ;harondor
 army
@@ -9148,14 +9305,7 @@ unit		Khandish Hunters						exp 1 armour 0 weapon_lvl 0
 unit		Daritai Clansmen					exp 1 armour 0 weapon_lvl 0
 unit		Daritai Hunters					exp 1 armour 0 weapon_lvl 0
 
-character	sub_faction aztecs, Carmag, general, male, age 25, x 206, y 416
-army
-unit		Rhudaur Warriors		exp 1 armour 0 weapon_lvl 0
-unit		Hillmen					exp 0 armour 1 weapon_lvl 0
-unit		Hillmen					exp 0 armour 1 weapon_lvl 0
-unit		Hillmen					exp 1 armour 0 weapon_lvl 0
-unit		Rhudaur Savages			exp 1 armour 0 weapon_lvl 0
-unit		Rhudaur Savages			exp 0 armour 0 weapon_lvl 0
+
 
 character	sub_faction hre, Azgash, general, male, age 19, x 260, y 393
 army
@@ -9174,17 +9324,6 @@ unit		Heavy Goblin Crossbows			exp 2 armour 1 weapon_lvl 0
 unit		Trolls				exp 1 armour 0 weapon_lvl 0
 unit		Warg Riders					exp 3 armour 0 weapon_lvl 0
 
-character	sub_faction hre, Kruknash, general, male, age 19, x 286, y 429
-army
-unit		Goblin Bodyguards			exp 4 armour 1 weapon_lvl 0
-unit		Uruk Overseers		exp 2 armour 0 weapon_lvl 0
-unit		Mountain-Orc Hunters		exp 3 armour 1 weapon_lvl 0
-unit		Goblin Infantry		exp 1 armour 1 weapon_lvl 0
-unit		Goblin Infantry		exp 1 armour 1 weapon_lvl 0
-unit		Trolls				exp 0 armour 0 weapon_lvl 0
-unit		Heavy Goblin Crossbows			exp 2 armour 1 weapon_lvl 0
-unit		Goblin Archers		exp 1 armour 1 weapon_lvl 0
-unit		Goblin Archers		exp 1 armour 1 weapon_lvl 0
 
 character	sub_faction hre, Hoshnaz, general, male, age 19, x 261, y 432
 army
@@ -9197,32 +9336,8 @@ unit		Heavy Goblin Crossbows			exp 2 armour 1 weapon_lvl 0
 unit		Goblin Archers		exp 1 armour 1 weapon_lvl 0
 unit		Goblin Archers		exp 1 armour 1 weapon_lvl 0
 
-character	sub_faction hre, Rongu, general, male, age 19, x 285, y 439
-army
-unit		Goblin Bodyguards			exp 7 armour 1 weapon_lvl 0
-unit		Uruk Overseers		exp 3 armour 0 weapon_lvl 0
-unit		Mountain-Orc Hunters		exp 3 armour 0 weapon_lvl 0
-unit		Goblin Infantry		exp 3 armour 1 weapon_lvl 0
-unit		Goblin Infantry		exp 3 armour 1 weapon_lvl 0
-unit		Goblin Infantry		exp 3 armour 1 weapon_lvl 0
-unit		Goblin Infantry		exp 3 armour 1 weapon_lvl 0
-unit		Trolls				exp 1 armour 0 weapon_lvl 0
-unit		Heavy Goblin Crossbows			exp 2 armour 1 weapon_lvl 0
-unit		Heavy Goblin Crossbows			exp 2 armour 1 weapon_lvl 0
-unit		Goblin Archers		exp 2 armour 1 weapon_lvl 0
-unit		Goblin Archers		exp 2 armour 1 weapon_lvl 0
 
-character	sub_faction hre, Ishmogg, general, male, age 19, x 314, y 438
-army
-unit		Goblin Bodyguards			exp 4 armour 1 weapon_lvl 0
-unit		Uruk Overseers		exp 2 armour 0 weapon_lvl 0
-unit		Mountain-Orc Hunters		exp 2 armour 0 weapon_lvl 0
-unit		Goblin Infantry		exp 1 armour 1 weapon_lvl 0
-unit		Goblin Infantry		exp 1 armour 1 weapon_lvl 0
-unit		Trolls				exp 0 armour 0 weapon_lvl 0
-unit		Heavy Goblin Crossbows			exp 2 armour 1 weapon_lvl 0
-unit		Goblin Archers		exp 1 armour 1 weapon_lvl 0
-unit		Goblin Archers		exp 1 armour 1 weapon_lvl 0
+
 
 character	sub_faction aztecs, Duibhne, general, male, age 19, x 218, y 264
 army
@@ -9252,29 +9367,7 @@ unit		Rhudaur Huscarles		exp 1 armour 0 weapon_lvl 0
 unit		Rhudaur Savages		exp 1 armour 0 weapon_lvl 0
 unit		Rhudaur Warriors	exp 1 armour 0 weapon_lvl 1
 
-character	sub_faction aztecs, Breandan, general, male, age 34, x 241, y 395
-army
-unit		Rhudaur Huscarles		exp 1 armour 0 weapon_lvl 0
-unit		Hillmen		exp 2 armour 1 weapon_lvl 1
-unit		Hillmen		exp 1 armour 1 weapon_lvl 1
-unit		Hillmen		exp 1 armour 1 weapon_lvl 1
-unit		Hillmen		exp 1 armour 1 weapon_lvl 1
 
-character	sub_faction aztecs, Agathor, general, male, age 34, x 239, y 411
-army
-unit		Rhudaur Huscarles		exp 1 armour 0 weapon_lvl 0
-unit		Hillmen		exp 2 armour 1 weapon_lvl 1
-unit		Hillmen		exp 1 armour 1 weapon_lvl 1
-unit		Hillmen		exp 1 armour 1 weapon_lvl 1
-unit		Hillmen		exp 1 armour 1 weapon_lvl 1
-
-character	sub_faction normans, Sabert, general, male, age 24, x 105, y 377
-army
-unit		Sellswords			exp 2 armour 0 weapon_lvl 1
-unit		Woodland Hunters	exp 1 armour 1 weapon_lvl 0
-unit		Woodland Hunters	exp 1 armour 1 weapon_lvl 0
-unit		Bandits				exp 1 armour 1 weapon_lvl 0
-unit		Bandits				exp 1 armour 1 weapon_lvl 0
 
 character	sub_faction england, Balcmeg, general, male, age 28, x 316, y 252
 army
@@ -9341,22 +9434,8 @@ army
 unit		Uruk Bodyguard				exp 2 armour 0 weapon_lvl 1
 unit		Orc Raiders		exp 2 armour 1 weapon_lvl 0
 
-character	sub_faction milan, Alchfrid, general, male, age 25, x 264, y 292
-army
-unit		Sellswords			exp 2 armour 0 weapon_lvl 1
-unit		Peasant Scouts				exp 2 armour 0 weapon_lvl 0
-unit		Peasant Scouts				exp 2 armour 0 weapon_lvl 0
-unit		Bandits				exp 2 armour 0 weapon_lvl 0
-unit		Bandits				exp 2 armour 0 weapon_lvl 0
 
-character	sub_faction portugal, Trushak, general, male, age 37, x 152, y 428
-army
-unit		Warg Riders						exp 2 armour 1 weapon_lvl 1
-unit		Iron Crown Warriors				exp 1 armour 1 weapon_lvl 0
-unit		Goblin Band			exp 1 armour 1 weapon_lvl 0
-unit		Goblin Band			exp 1 armour 1 weapon_lvl 0
-unit		Goblin Archers			exp 0 armour 0 weapon_lvl 0
-unit		Goblin Archers			exp 0 armour 0 weapon_lvl 0
+
 
 character	sub_faction hre, Gorgash, named character, general, male, age 52, x 166, y 372, portrait wight, battle_model barrow_wight_king
 traits		WraithRace 1, FearGeneral 1, BattleFear 1 
@@ -9368,31 +9447,6 @@ unit		Raider Warband			exp 1 armour 1 weapon_lvl 0
 unit		Raider Skirmishers		exp 2 armour 1 weapon_lvl 0
 unit		Raider Skirmishers		exp 2 armour 1 weapon_lvl 0
 
-character	sub_faction poland, Hakkthrak, general, male, age 52, x 322, y 399
-army
-unit		Uruk Bodyguard				exp 2 armour 0 weapon_lvl 1
-unit		Dol Guldur Archers			exp 1 armour 1 weapon_lvl 0
-unit		Dol Guldur Archers			exp 1 armour 1 weapon_lvl 0
-unit		Mirkwood Goblins		exp 1 armour 1 weapon_lvl 0
-unit		Raider Warband			exp 1 armour 1 weapon_lvl 0
-unit		Raider Warband			exp 1 armour 1 weapon_lvl 0
-
-character	sub_faction poland, Hakkdul, general, male, age 52, x 317, y 392
-army
-unit		Mirkwood Uruks	exp 2 armour 0 weapon_lvl 1
-unit		Raider Warband		exp 1 armour 1 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 1 weapon_lvl 0
-unit		Mirkwood Hunters		exp 0 armour 0 weapon_lvl 0
-unit		Mirkwood Hunters		exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction poland, Husklik, general, male, age 52, x 328, y 377
-army
-unit		Dol Guldur Archers		exp 0 armour 0 weapon_lvl 0
-unit		Dol Guldur Host			exp 1 armour 1 weapon_lvl 0
-unit		Dol Guldur Host			exp 1 armour 1 weapon_lvl 0
-unit		Mirkwood Goblins	exp 1 armour 1 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction turks, Borven, general, male, age 29, x 182, y 450
 army
@@ -9417,35 +9471,6 @@ unit		Goblin Infantry		exp 3 armour 1 weapon_lvl 0
 unit		Snow-Orc Scouts			exp 2 armour 1 weapon_lvl 1
 unit		Snow-Orc Scouts			exp 2 armour 1 weapon_lvl 1
 
-character	sub_faction teutonic_order, Anborn, general, male, age 18, x 155, y 192
-army
-unit		Sellswords		exp 2 armour 0 weapon_lvl 1
-unit		Druedain Hunters			exp 4 armour 2 weapon_lvl 0
-unit		Druedain Hunters			exp 4 armour 2 weapon_lvl 0
-unit		Druedain Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Druedain Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Bandits			exp 2 armour 0 weapon_lvl 0
-unit		Bandits			exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction sicily, Merendir, general, male, age 42, x 186, y 229
-army
-unit		Sellswords		exp 2 armour 0 weapon_lvl 1
-unit		Druedain Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Druedain Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Bandits			exp 2 armour 0 weapon_lvl 1
-unit		Bandits			exp 2 armour 0 weapon_lvl 1
-unit		Bandits			exp 2 armour 0 weapon_lvl 1
-
-character	sub_faction sicily, Milon, general, male, age 26, x 251, y 202
-army
-unit		Sellswords			exp 3 armour 1 weapon_lvl 1
-unit		Woodland Hunters	exp 4 armour 1 weapon_lvl 1
-unit		Woodland Hunters	exp 4 armour 1 weapon_lvl 1
-unit		Woodland Hunters	exp 4 armour 1 weapon_lvl 1
-unit		Lumbermen	exp 1 armour 2 weapon_lvl 1
-unit		Lumbermen	exp 1 armour 2 weapon_lvl 1
-unit		Anfalas Pikemen		exp 3 armour 0 weapon_lvl 0
-unit		Anfalas Pikemen		exp 3 armour 0 weapon_lvl 0
 
 character	sub_faction sicily, Nemir, general, male, age 31, x 278, y 156
 army
@@ -9498,24 +9523,6 @@ unit		Haradrim Spearmen			exp 1 armour 0 weapon_lvl 0
 unit		Haradrim Archers		    exp 1 armour 0 weapon_lvl 0
 unit		Haradrim Archers		    exp 1 armour 0 weapon_lvl 0
 
-character	sub_faction sicily, Pilimor, general, male, age 52, x 332, y 177
-army
-unit		Sellswords			exp 3 armour 0 weapon_lvl 1
-unit		Southron Warband		exp 2 armour 1 weapon_lvl 0
-unit		Bandits				exp 2 armour 0 weapon_lvl 1
-unit		Bandits				exp 2 armour 0 weapon_lvl 1
-unit		Haradrim Archers		exp 1 armour 0 weapon_lvl 0
-unit		Haradrim Archers		exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction england, Colfinmen, general, male, age 34, x 334, y 200
-army
-unit		Black Uruks		exp 4 armour 0 weapon_lvl 1
-unit		Orc Scouts		exp 2 armour 0 weapon_lvl 0
-unit		Orc Scouts		exp 2 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 1 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 1 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction timurids, Barhyrde, general, male, age 46, x 315, y 346
 army
@@ -9535,14 +9542,6 @@ unit		Mirkwood Goblins	exp 1 armour 0 weapon_lvl 0
 unit		Raider Warband		exp 0 armour 1 weapon_lvl 0
 unit		Raider Warband		exp 0 armour 1 weapon_lvl 0
 
-character	sub_faction timurids, Grimfast, general, male, age 46, x 314, y 370
-army
-unit		Goblin Stalkers			exp 5 armour 0 weapon_lvl 0
-unit		Mirkwood Hunters		exp 1 armour 0 weapon_lvl 0
-unit		Mirkwood Hunters		exp 1 armour 0 weapon_lvl 0
-unit		Mirkwood Goblins	exp 1 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 0 armour 1 weapon_lvl 0
-unit		Raider Warband		exp 0 armour 1 weapon_lvl 0
 
 character	sub_faction timurids, Theoren, general, male, age 24, x 289, y 317
 army
@@ -9585,23 +9584,7 @@ unit		Daritai Hunters					exp 2 armour 0 weapon_lvl 0
 unit		Daritai Hunters					exp 2 armour 0 weapon_lvl 0
 unit		Daritai Hunters					exp 2 armour 0 weapon_lvl 0
 
-character	sub_faction scotland, Gangleren, general, male, age 36, x 474, y 378 ;Scarn
-army
-unit		Privateer Cavalry		exp 2 armour 0 weapon_lvl 0
-unit		Privateer Axemen			exp 2 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
-unit		Rhovanion Hunters			exp 1 armour 0 weapon_lvl 0
 
-character	sub_faction scotland, Holden, general, male, age 52, x 420, y 364 ;Burh Sagath
-army
-unit		Privateer Cavalry		exp 2 armour 0 weapon_lvl 0
-unit		Privateer Axemen			exp 1 armour 0 weapon_lvl 0
-unit		Privateer Axemen			exp 1 armour 0 weapon_lvl 0
-unit		Privateer Axemen			exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Riders			exp 2 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
-unit		Rhovanion Hunters			exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction scotland, Algar, general, male, age 52, x 452, y 363 ;Burh Sagath
 army
@@ -9621,35 +9604,6 @@ unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
 unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
 unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
 
-character	sub_faction milan, Thrydwulf, general, male, age 52, x 292, y 286 ;Tirith Anduin
-army
-unit		Privateer Axemen		exp 4 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 4 armour 0 weapon_lvl 0
-unit		Bandits				exp 4 armour 0 weapon_lvl 0
-unit		Bandits				exp 4 armour 0 weapon_lvl 0
-unit		Bandits				exp 4 armour 0 weapon_lvl 0
-
-character	sub_faction scotland, Childebert, general, male, age 52, x 384, y 398 ;Burh Gram
-army
-unit		Privateer Axemen			exp 5 armour 0 weapon_lvl 0
-unit		Rhovanion Riders			exp 2 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
-
-character	sub_faction scotland, Hross, general, male, age 35, x 448, y 403 ;Miraeron
-army
-unit		Privateer Cavalry		exp 5 armour 0 weapon_lvl 0
-unit		Rhovanion Riders			exp 2 armour 0 weapon_lvl 0
-unit		Rhovanion Riders			exp 2 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
 
 character	sub_faction scotland, Authari, general, male, age 37, x 459, y 341 ;north sea rhun
 army
@@ -9664,8 +9618,8 @@ unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 0
 character	sub_faction teutonic_order, Faolagan, general, male, age 18, x 125, y 308 ;minhiriath
 army
 unit		Elder Guildsmen					exp 3 armour 0 weapon_lvl 0
-unit		Enedwaith Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Enedwaith Hunters			exp 1 armour 0 weapon_lvl 0
+unit		Dwarven Labourers Hunters			exp 1 armour 0 weapon_lvl 0
+unit		Dwarven Labourers Hunters			exp 1 armour 0 weapon_lvl 0
 unit		Eryn Vorn Woodsmen				exp 2 armour 0 weapon_lvl 0
 unit		Eryn Vorn Woodsmen				exp 2 armour 0 weapon_lvl 0
 
@@ -9689,15 +9643,6 @@ unit		Lumbermen		exp 3 armour 2 weapon_lvl 1
 unit		Lumbermen		exp 3 armour 2 weapon_lvl 1
 unit		Lumbermen		exp 3 armour 2 weapon_lvl 1
 
-character	sub_faction scotland, Gustaw, general, male, age 36, x 409, y 379 ;east celduin
-army
-unit		Sellswords				exp 3 armour 0 weapon_lvl 1
-unit		Rhovanion Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 2 weapon_lvl 1
-unit		Bandits					exp 0 armour 0 weapon_lvl 0
-unit		Bandits					exp 1 armour 0 weapon_lvl 0
-unit		Bandits					exp 0 armour 0 weapon_lvl 0
-
 character	sub_faction turks, Arahad, general, male, age 23, x 167, y 355 ;metraith
 army
 unit		Privateer Cavalry		exp 2 armour 0 weapon_lvl 0
@@ -9708,12 +9653,7 @@ unit		Lumbermen		exp 1 armour 1 weapon_lvl 0
 unit		Bandits					exp 1 armour 0 weapon_lvl 0
 unit		Bandits					exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Aragost, general, male, age 28, x 186, y 333 ;tharbad north
-army
-unit		Sellswords				exp 3 armour 0 weapon_lvl 1
-unit		Saralainn Mercenaries					exp 0 armour 0 weapon_lvl 0
-unit		Saralainn Mercenaries					exp 0 armour 0 weapon_lvl 0
-unit		Bandits					exp 0 armour 0 weapon_lvl 0
+
 
 character	sub_faction aztecs, Arvedui, general, male, age 28, x 181, y 318 ;tharbad south
 army
@@ -9763,15 +9703,6 @@ unit		Goblin Archers		exp 2 armour 1 weapon_lvl 0
 unit		Goblin Archers		exp 2 armour 1 weapon_lvl 0
 
 
-character	sub_faction hre, Aodhagan, general, male, age 42, x 214, y 331 ;Hollin
-army
-unit		Warg Riders					exp 2 armour 1 weapon_lvl 1
-unit		Raider Warband		exp 1 armour 1 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 1 weapon_lvl 0
-unit		Goblin Infantry		exp 1 armour 1 weapon_lvl 0
-unit		Goblin Archers		exp 1 armour 1 weapon_lvl 0
-unit		Goblin Archers		exp 1 armour 1 weapon_lvl 0
-
 character	sub_faction turks, Tathar, general, male, age 27, x 161, y 325 ;Argond
 army
 unit		Privateer Axemen			exp 1 armour 0 weapon_lvl 0
@@ -9792,15 +9723,6 @@ unit		Rhovanion Hunters			exp 0 armour 0 weapon_lvl 0
 unit		Rhovanion Spearmen		exp 1 armour 1 weapon_lvl 1
 unit		Rhovanion Hunters			exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction scotland, Ratahis, general, male, age 24, x 392, y 333  ;carvarad
-army
-unit		Privateer Cavalry		exp 2 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 0 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 0 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction scotland, Kynoden, general, male, age 24, x 385, y 310  ;carvarad
 army
@@ -9829,13 +9751,6 @@ unit		Rhovanion Hunters				exp 1 armour 0 weapon_lvl 0
 unit		Rhovanion Spearmen			exp 1 armour 1 weapon_lvl 1
 unit		Rhovanion Spearmen			exp 1 armour 1 weapon_lvl 1
 
-character	sub_faction scotland, Alwis, general, male, age 24, x 359, y 311  ;Dorthalu
-army
-unit		Privateer Cavalry			exp 2 armour 0 weapon_lvl 0
-unit		Privateer Axemen				exp 0 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen			exp 1 armour 1 weapon_lvl 1
-unit		Rhovanion Spearmen			exp 1 armour 1 weapon_lvl 1
 
 character	sub_faction scotland, Ansovald, general, male, age 24, x 357, y 283  ;Dorthalu
 army
@@ -9845,13 +9760,6 @@ unit		Rhovanion Hunters				exp 1 armour 0 weapon_lvl 0
 unit		Rhovanion Spearmen			exp 1 armour 1 weapon_lvl 1
 unit		Rhovanion Spearmen			exp 1 armour 1 weapon_lvl 1
 
-character	sub_faction scotland, Edwodyn, general, male, age 24, x 366, y 347  ;Rhawburg
-army
-unit		Privateer Axemen				exp 5 armour 0 weapon_lvl 0
-unit		Rhovanion Riders				exp 2 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen			exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen			exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction scotland, Arnken, general, male, age 27, x 405, y 305  ;othlebed
 army
@@ -9861,14 +9769,6 @@ unit		Rhovanion Spearmen			exp 1 armour 0 weapon_lvl 0
 unit		Rhovanion Hunters				exp 0 armour 0 weapon_lvl 0
 unit		Rhovanion Spearmen			exp 1 armour 0 weapon_lvl 0
 
-character	sub_faction scotland, Odell, general, male, age 18, x 401, y 352  ;ilanin
-army
-unit		Sellswords					exp 2 armour 0 weapon_lvl 0
-unit		Rhovanion Riders				exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen			exp 1 armour 2 weapon_lvl 1
-unit		Rhovanion Spearmen			exp 1 armour 2 weapon_lvl 1
-unit		Rhovanion Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters				exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction turks, Mablung, general, male, age 49, x 136, y 449
 army
@@ -9887,13 +9787,6 @@ unit		Hillmen			exp 0 armour 1 weapon_lvl 0
 unit		Hillmen			exp 0 armour 1 weapon_lvl 0
 unit		Hillmen			exp 0 armour 1 weapon_lvl 0
 
-character	sub_faction turks, Caramir, general, male, age 49, x 206, y 365
-army
-unit		Sellswords				exp 0 armour 0 weapon_lvl 0
-unit		Woodland Hunters		exp 1 armour 1 weapon_lvl 0
-unit		Woodland Hunters		exp 1 armour 1 weapon_lvl 0
-unit		Bandits					exp 1 armour 0 weapon_lvl 0
-unit		Bandits					exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction portugal, Friseal, general, male, age 51, x 182, y 424 ;athilin
 army
@@ -9915,14 +9808,6 @@ unit		Woodland Hunters		exp 2 armour 1 weapon_lvl 0
 unit		Woodland Hunters		exp 2 armour 1 weapon_lvl 0
 unit		Woodland Hunters		exp 2 armour 1 weapon_lvl 0
 
-character	sub_faction turks, Celepharn, general, male, age 44, x 129, y 423 ;barketta
-army
-unit		Sellswords				exp 0 armour 0 weapon_lvl 0
-unit		Woodland Hunters		exp 1 armour 1 weapon_lvl 0
-unit		Woodland Hunters		exp 1 armour 1 weapon_lvl 0
-unit		Bandits					exp 1 armour 0 weapon_lvl 0
-unit		Bandits					exp 0 armour 0 weapon_lvl 0
-unit		Bandits					exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction turks, Arthven, general, male, age 26, x 108, y 401 ;lune south
 army
@@ -9951,14 +9836,6 @@ unit		Rhovanion Spearmen		exp 0 armour 1 weapon_lvl 01
 unit		Rhovanion Riders			exp 1 armour 0 weapon_lvl 0
 unit		Rhovanion Riders			exp 1 armour 0 weapon_lvl 0
 
-character	sub_faction turks, Durion, general, male, age 37, x 445, y 370 ;Talathang
-army
-unit		Privateer Cavalry		exp 2 armour 0 weapon_lvl 0
-unit		Privateer Axemen			exp 2 armour 0 weapon_lvl 0
-unit		Bandits					exp 0 armour 0 weapon_lvl 0
-unit		Bandits					exp 0 armour 0 weapon_lvl 0
-unit		Bandits					exp 0 armour 0 weapon_lvl 0
-
 character	sub_faction turks, Bregven, general, male, age 34, x 107, y 455 ;forochel
 army
 unit		Sellswords				exp 5 armour 0 weapon_lvl 0
@@ -9969,15 +9846,6 @@ unit		Bandits					exp 1 armour 0 weapon_lvl 0
 unit		Woodland Hunters		exp 1 armour 1 weapon_lvl 0
 unit		Woodland Hunters		exp 1 armour 1 weapon_lvl 0
 
-character	sub_faction turks, Coruion, general, male, age 33, x 110, y 415 ;enerond
-army
-unit		Sellswords				exp 5 armour 0 weapon_lvl 0
-unit		Woodland Hunters		exp 1 armour 1 weapon_lvl 0
-unit		Woodland Hunters		exp 1 armour 1 weapon_lvl 0
-unit		Bandits					exp 1 armour 0 weapon_lvl 0
-unit		Bandits					exp 1 armour 0 weapon_lvl 0
-unit		Bandits					exp 1 armour 0 weapon_lvl 0
-unit		Bandits					exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction turks, Merenion, general, male, age 46, x 137, y 334  ;x 128, y 330 x 324, y 205 ;girithlin Fort_tester
 army
@@ -9988,14 +9856,6 @@ unit		Lumbermen		exp 1 armour 1 weapon_lvl 0
 unit		Bandits					exp 1 armour 0 weapon_lvl 0
 unit		Bandits					exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction teutonic_order, Caradoc, general, male, age 22, x 144, y 291 ;suduri
-army
-unit		Elder Guildsmen					exp 2 armour 0 weapon_lvl 0
-unit		Saralainn Mercenaries						exp 1 armour 0 weapon_lvl 0
-unit		Saralainn Mercenaries						exp 1 armour 0 weapon_lvl 0
-unit		Saralainn Mercenaries						exp 1 armour 0 weapon_lvl 0
-unit		Enedwaith Hunters			exp 0 armour 0 weapon_lvl 0
-unit		Enedwaith Hunters			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction teutonic_order, Riscen, general, male, age 40, x 199, y 247 ;gynd
 army
@@ -10010,551 +9870,13 @@ army
 unit		Elder Guildsmen					exp 2 armour 0 weapon_lvl 0
 unit		Greyflood Axemen				exp 1 armour 0 weapon_lvl 0
 unit		Greyflood Axemen				exp 1 armour 0 weapon_lvl 0
-unit		Enedwaith Hunters			exp 0 armour 0 weapon_lvl 0
+unit		Dwarven Labourers Hunters			exp 0 armour 0 weapon_lvl 0
 unit		Greyflood Raiders		exp 1 armour 0 weapon_lvl 0
 unit		Greyflood Raiders		exp 1 armour 0 weapon_lvl 0
 
 ;#;############################# Rebel Generals - Roaming armies #############################
 
-; Barrow Downs
-character	sub_faction hre, Agorolg, named character, male, age 25, x 169, y 371, portrait wight, battle_model barrow_wight_king
-traits Locked 1
-army
-unit		Rebel Barrow Wights 				exp 3 armour 0 weapon_lvl 0
-unit		Rebel Barrow Wights 				exp 3 armour 0 weapon_lvl 0
-unit		Rebel Barrow Wights 				exp 3 armour 0 weapon_lvl 0
 
-;Undertowers
-character	sub_faction aztecs, Aonghasan, named character, male, age 25, x 101, y 377, portrait Corsair_3, battle_model corsairs_upg
-traits Locked 1
-army
-unit		Elder Guildsmen					exp 2 armour 0 weapon_lvl 0
-unit		Saralainn Mercenaries						exp 1 armour 0 weapon_lvl 0
-unit		Saralainn Mercenaries						exp 1 armour 0 weapon_lvl 0
-unit		Saralainn Mercenaries						exp 1 armour 0 weapon_lvl 0
-unit		Enedwaith Hunters			exp 0 armour 0 weapon_lvl 0
-unit		Enedwaith Hunters			exp 0 armour 0 weapon_lvl 0
-
-;Amon Hen
-character	sub_faction england, Gorluk, named character, male, age 25, x 301, y 251, label amon_hen_custom1
-traits Locked 1
-army
-unit		Black Uruks		exp 4 armour 0 weapon_lvl 1
-
-;Argonath
-;character	sub_faction timurids, Beranbold, named character, male, age 25, x 302, y 259
-;traits Locked 1
-;army
-;unit		Greenwood Foresters				exp 2 armour 0 weapon_lvl 0
-;unit		Woodmen Warriors				exp 1 armour 1 weapon_lvl 0
-;unit		Woodmen Trackers				exp 1 armour 0 weapon_lvl 0
-;unit		Woodmen Trackers				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Thrukul, general, male, age 19, x 285, y 440
-army
-unit		Goblin Bodyguards			exp 7 armour 1 weapon_lvl 0
-unit		Uruk Overseers		exp 4 armour 0 weapon_lvl 0
-unit		Mountain-Orc Hunters		exp 3 armour 0 weapon_lvl 0
-unit		Mountain-Orc Hunters		exp 3 armour 0 weapon_lvl 0
-unit		Goblin Infantry		exp 2 armour 0 weapon_lvl 0
-unit		Goblin Infantry		exp 2 armour 0 weapon_lvl 0
-unit		Goblin Infantry		exp 2 armour 0 weapon_lvl 0
-unit		Goblin Infantry		exp 2 armour 0 weapon_lvl 0
-unit		Goblin Infantry		exp 2 armour 0 weapon_lvl 0
-unit		Heavy Goblin Crossbows			exp 3 armour 1 weapon_lvl 0
-unit		Heavy Goblin Crossbows			exp 3 armour 1 weapon_lvl 0
-unit		Warg Riders						exp 4 armour 0 weapon_lvl 0
-unit		Warg Riders						exp 4 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Lagrad, general, male, age 46, x 284, y 409
-army
-unit		Heavy Goblin Infantry		exp 0 armour 0 weapon_lvl 0
-unit		Heavy Goblin Archers		exp 2 armour 0 weapon_lvl 0
-unit		Heavy Goblin Archers		exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction aztecs, Eochagan, general, male, age 19, x 82, y 324
-army
-unit		Bandits			exp 2 armour 0 weapon_lvl 1
-unit		Bandits			exp 2 armour 0 weapon_lvl 1
-
-character	sub_faction turks, Aervellon, general, male, age 32, x 152, y 448
-army
-unit		Bandits		exp 2 armour 0 weapon_lvl 0
-unit		Bandits		exp 0 armour 0 weapon_lvl 0
-unit		Bandits		exp 0 rmour 0 weapon_lvl 1
-
-character	sub_faction hre, Akoth, general, male, age 21, x 236, y 378
-army
-unit		Trolls				exp 4 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Gazduf, general, male, age 23, x 228, y 397
-army
-unit		Trolls				exp 4 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Burzum, general, male, age 26, x 241, y 388
-army
-unit		Trolls				exp 4 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Ghash, general, male, age 25, x 235, y 405
-army
-unit		Trolls				exp 4 armour 0 weapon_lvl 0
-
-character	sub_faction turks, Istnir, general, male, age 23, x 62, y 338
-army
-unit		Privateer Axemen		exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Avranc, general, male, age 23, x 172, y 411
-army
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Hakknash, general, male, age 23, x 168, y 374
-army
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction turks, Echorian, general, male, age 23, x 138, y 385
-army
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction normans, Eddy, general, male, age 23, x 169, y 385
-army
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 4 armour 0 weapon_lvl 0
-unit		Bandits				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction aztecs, Baldor, general, male, age 23, x 161, y 398, label bree_bandits_1
-army
-unit		Saralainn Mercenaries				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 4 armour 0 weapon_lvl 0
-unit		Bandits				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction aztecs, Fionn, general, male, age 23, x 181, y 381, label bree_bandits_2
-army
-unit		Saralainn Mercenaries				exp 3 armour 1 weapon_lvl 1
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Gorbag, general, male, age 29, x 145, y 359
-army
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Ishnakh, general, male, age 43, x 177, y 335
-army
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Khrosh, general, male, age 35, x 164, y 346
-army
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction turks, Baranfindel, general, male, age 19, x 149, y 338
-army
-unit		Bandits				exp 6 armour 0 weapon_lvl 0
-unit		Bandits				exp 2 armour 0 weapon_lvl 0
-unit		Bandits				exp 3 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction turks, Callon, general, male, age 27, x 162, y 321
-army
-unit		Bandits				exp 6 armour 0 weapon_lvl 0
-unit		Bandits				exp 2 armour 0 weapon_lvl 0
-unit		Bandits				exp 3 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 4 armour 0 weapon_lvl 0
-unit		Bandits				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction aztecs, Angaidh, general, male, age 23, x 191, y 322
-army
-unit		Clan Spearmen			exp 3 armour 0 weapon_lvl 0
-unit		Clan Spearmen			exp 2 armour 0 weapon_lvl 0
-unit		Dunlending Horsemen			exp 1 armour 0 weapon_lvl 0
-unit		Dunlending Horsemen			exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction aztecs, Taran, general, male, age 36, x 178, y 311
-army
-unit		Clan Spearmen			exp 1 armour 0 weapon_lvl 0
-unit		Clan Spearmen			exp 2 armour 0 weapon_lvl 0
-unit		Dunlending Horsemen			exp 1 armour 0 weapon_lvl 0
-unit		Dunlending Horsemen			exp 4 armour 0 weapon_lvl 0
-unit		Dunlending Horsemen			exp 1 armour 0 weapon_lvl 0
-unit		Clan Spearmen			exp 3 armour 0 weapon_lvl 0
-unit		Dunlending Horsemen			exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction aztecs, Ceallach, general, male, age 18, x 196, y 305
-army
-unit		Dunlending Horsemen			exp 0 armour 0 weapon_lvl 0
-unit		Clan Spearmen			exp 1 armour 0 weapon_lvl 0
-unit		Dunlending Horsemen			exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction teutonic_order, Aonghasan, named character, male, age 25, x 216, y 247
-army
-unit		Elder Guildsmen					exp 3 armour 1 weapon_lvl 0
-unit		Greyflood Horsemen						exp 1 armour 1 weapon_lvl 0
-unit		Greyflood Horsemen						exp 1 armour 1 weapon_lvl 0
-unit		Greyflood Raiders				exp 1 armour 0 weapon_lvl 0
-unit		Greyflood Raiders				exp 1 armour 0 weapon_lvl 0
-unit		Greyflood Axemen			exp 1 armour 1 weapon_lvl 0
-unit		Greyflood Axemen			exp 1 armour 1 weapon_lvl 0
-unit		Greyflood Axemen			exp 1 armour 1 weapon_lvl 0
-
-character	sub_faction hre, Lungaz, general, male, age 23, x 208, y 334
-army
-unit		Raider Warband		exp 2 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction turks, Nirven, general, male, age 26, x 236, y 362
-army
-unit		Privateer Axemen	exp 3 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction hre, Gorlun, general, male, age 25, x 191, y 336
-army
-unit		Raider Warband		exp 5 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction milan, Hlothere, general, male, age 43, x 224, y 255
-army
-unit		Dunlending Horsemen			exp 2 armour 1 weapon_lvl 0
-unit		Clan Axemen			exp 1 armour 0 weapon_lvl 1
-unit		Clan Spearmen			exp 1 armour 0 weapon_lvl 0
-unit		Clan Spearmen			exp 1 armour 0 weapon_lvl 0
-unit		Clan Hunters			exp 1 armour 0 weapon_lvl 0
-unit		Clan Hunters			exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction sicily, Canion, general, male, age 23, x 181, y 193
-army
-unit		Azrazair Crossbowmen			exp 1 armour 2 weapon_lvl 0
-unit		Azrazair Archers			exp 0 armour 0 weapon_lvl 0
-unit		Azrazair Archers			exp 0 armour 0 weapon_lvl 0
-unit		Azrazair Raiders			exp 0 armour 2 weapon_lvl 1
-unit		Azrazair Raiders			exp 0 armour 2 weapon_lvl 1
-
-character	sub_faction sicily, Earanur, general, male, age 23, x 187, y 221
-army
-unit		Bandits				exp 2 armour 0 weapon_lvl 0
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction sicily, Nimradan, general, male, age 23, x 283, y 185
-army
-unit		Azrazair Crossbowmen			exp 1 armour 2 weapon_lvl 0
-unit		Azrazair Warriors			exp 0 armour 0 weapon_lvl 0
-unit		Azrazair Archers			exp 0 armour 0 weapon_lvl 0
-unit		Azrazair Raiders			exp 0 armour 2 weapon_lvl 1
-unit		Azrazair Raiders			exp 0 armour 2 weapon_lvl 1
-
-character	sub_faction denmark, Finglin, general, male, age 23, x 247, y 181
-army
-unit		Azrazair Marines			exp 1 armour 0 weapon_lvl 0
-unit		Azrazair Crossbowmen				exp 0 armour 0 weapon_lvl 0
-unit		Azrazair Crossbowmen				exp 0 armour 0 weapon_lvl 0
-unit		Azrazair Archers			exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction sicily, Timbrethil, general, male, age 25, x 330, y 179
-army
-unit		Khandish Raiders		exp 2 armour 0 weapon_lvl 0
-unit		Marauders		exp 1 armour 0 weapon_lvl 0
-unit		Marauders		exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction england, Gazdush, general, male, age 43, x 334, y 227
-army
-unit		Raider Warband		exp 2 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction sicily, Dinemen, general, male, age 38, x 333, y 216
-army
-unit		Bandits				exp 2 armour 0 weapon_lvl 0
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction sicily, Thorondir, general, male, age 23, x 283, y 147
-army
-unit		Harondor Mercenaries			exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 2 armour 0 weapon_lvl 0
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction khand, Yumruk, general, male, age 23, x 466, y 177
-army
-unit		Khandish Raiders		exp 2 armour 0 weapon_lvl 0
-unit		Marauders		exp 1 armour 0 weapon_lvl 0
-unit		Marauders		exp 1 armour 0 weapon_lvl 0
-unit		Steppe Archers		exp 1 armour 0 weapon_lvl 0
-unit		Steppe Archers		exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction timurids, Acgrim, general, male, age 23, x 289, y 428
-army
-unit		Privateer Axemen				exp 3 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction poland, Maunag, general, male, age 23, x 306, y 382
-army
-unit		Khamuls Shadow Rangers		exp 1 armour 0 weapon_lvl 0
-unit		Khamuls Shadow Rangers		exp 1 armour 0 weapon_lvl 0
-unit		Khamuls Shadow Rangers		exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction poland, Nagluk, general, male, age 23, x 325, y 378
-army
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction poland, Radlag, general, male, age 23, x 316, y 368
-army
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction poland, Radlag, general, male, age 23, x 282, y 307
-army
-unit		Raider Warband		exp 0 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 0 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters			exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction poland, Shagrat, general, male, age 23, x 307, y 357
-army
-unit		Khamuls Shadow Rangers		exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction scotland, Baduila, general, male, age 23, x 355, y 370
-army
-unit		Rhovanion Riders		exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 0 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters		exp 2 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen		exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction scotland, Harald, general, male, age 23, x 377, y 296
-army
-unit		Rhovanion Riders		exp 2 armour 0 weapon_lvl 0
-unit		Rhovanion Spearmen	exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters		exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Hunters		exp 1 armour 0 weapon_lvl 0
-unit		Rhovanion Riders		exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction scotland, Ric, general, male, age 23, x 342, y 406
-army
-unit		Privateer Axemen		exp 2 armour 0 weapon_lvl 0
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction scotland, Thane, general, male, age 23, x 366, y 385
-army
-unit		Privateer Axemen		exp 3 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction venice, Gorovod, general, male, age 23, x 471, y 347
-army
-unit		Privateer Cavalry				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction saxons, Haerion, general, male, age 23, x 81, y 428
-army
-unit		Privateer Axemen		exp 3 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction teutonic_order, Geh, general, male, age 23, x 312, y 225
-army
-unit		Druedain Hunters				exp 7 armour 3 weapon_lvl 0
-unit		Druedain Hunters				exp 4 armour 1 weapon_lvl 0
-unit		Druedain Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Druedain Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Druedain Hunters				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction teutonic_order, Luag, general, male, age 23, x 170, y 259
-army
-unit		Druedain Hunters				exp 4 armour 1 weapon_lvl 0
-unit		Druedain Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Druedain Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Druedain Hunters				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction teutonic_order, Taog, general, male, age 23, x 193, y 252
-army
-unit		Druedain Hunters				exp 4 armour 1 weapon_lvl 0
-unit		Druedain Hunters				exp 2 armour 0 weapon_lvl 0
-unit		Druedain Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Druedain Hunters				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction teutonic_order, Airril, general, male, age 23, x 194, y 276
-army
-unit		Druedain Hunters				exp 4 armour 1 weapon_lvl 0
-unit		Druedain Hunters				exp 2 armour 0 weapon_lvl 0
-unit		Druedain Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-unit		Bandits				exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction teutonic_order, Onchu, general, male, age 23, x 149, y 202
-army
-unit		Druedain Hunters				exp 4 armour 1 weapon_lvl 0
-unit		Druedain Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Druedain Hunters				exp 1 armour 0 weapon_lvl 0
-unit		Druedain Hunters				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction russia, Caldamir, general, male, age 23, x 287, y 164
-army
-unit		Azrazair Warriors			exp 5 armour 0 weapon_lvl 1
-unit		Azrazair Archers				exp 2 armour 0 weapon_lvl 0
-unit		Azrazair Raiders				exp 2 armour 2 weapon_lvl 1
-unit		Azrazair Raiders				exp 2 armour 2 weapon_lvl 1
-
-character	sub_faction spain, Gimliben, general, male, age 29, x 279, y 112
-army
-unit		Black Snake Guard					exp 2 armour 0 weapon_lvl 0
-unit		Southron Lancers			exp 0 armour 0 weapon_lvl 0
-unit		Southron Pikemen			exp 2 armour 0 weapon_lvl 0
-unit		Southron Pikemen			exp 2 armour 0 weapon_lvl 0
-unit		Southron Archers			exp 2 armour 0 weapon_lvl 0
-unit		Haradrim Archers			exp 0 armour 0 weapon_lvl 0
-unit		Haradrim Archers			exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction spain, Karbazir, general, male, age 29, x 290, y 77
-army
-unit		Black Snake Guard					exp 2 armour 0 weapon_lvl 0
-unit		Southron Lancers			exp 0 armour 0 weapon_lvl 0
-unit		Southron Pikemen			exp 2 armour 0 weapon_lvl 0
-unit		Southron Pikemen			exp 2 armour 0 weapon_lvl 0
-unit		Southron Archers			exp 2 armour 0 weapon_lvl 0
-unit		Haradrim Archers			exp 0 armour 0 weapon_lvl 0
-unit		Haradrim Archers			exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction russia, Ishaq, general, male, age 23, x 279, y 129
-army
-unit		Azrazair Warriors			exp 5 armour 0 weapon_lvl 1
-unit		Azrazair Archers				exp 2 armour 0 weapon_lvl 0
-unit		Azrazair Crossbowmen		exp 2 armour 0 weapon_lvl 0
-unit		Azrazair Raiders				exp 2 armour 2 weapon_lvl 1
-
-character	sub_faction russia, Mirazor, general, male, age 23, x 286, y 129
-army
-unit		Azrazair Marines					exp 5 armour 0 weapon_lvl 1
-unit		Azrazair Archers				exp 2 armour 0 weapon_lvl 0
-unit		Azrazair Archers				exp 2 armour 0 weapon_lvl 0
-unit		Azrazair Crossbowmen		exp 2 armour 0 weapon_lvl 0
-unit		Azrazair Raiders				exp 2 armour 2 weapon_lvl 0
-unit		Azrazair Raiders				exp 2 armour 2 weapon_lvl 0
-
-character	sub_faction spain, Sapthan, general, male, age 29, x 313, y 98
-army
-unit		Southron Lancers			exp 2 armour 0 weapon_lvl 0
-unit		Southron Warband			exp 1 armour 1 weapon_lvl 0
-unit		Southron Warband			exp 1 armour 1 weapon_lvl 0
-unit		Southron Archers			exp 1 armour 0 weapon_lvl 0
-
-; character	sub_faction spain, Taalib, general, male, age 29, x 413, y 105
-; army
-; unit		Serpent Guard		    exp 5 armour 1 weapon_lvl 0
-; unit		Muhad Beastmasters		    exp 2 armour 0 weapon_lvl 0
-; unit		Muhad Beastmasters		    exp 2 armour 0 weapon_lvl 0
-; unit		Muhad Tribesmen		    	exp 2 armour 0 weapon_lvl 0
-; unit		Muhad Tribesmen		    	exp 2 armour 0 weapon_lvl 0
-; unit		Troll-men Warriors		            exp 1 armour 0 weapon_lvl 0
-; unit		Troll-men Warriors		            exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction england, Burz, general, male, age 63, x 334, y 282
-army
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Warband		exp 3 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 1 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 1 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 1 armour 0 weapon_lvl 0
-unit		Raider Skirmishers		exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction scripts, Treebeard, named character, male, age 25, x 444, y 4, portrait Treebeard, battle_model Elephant_Crew3, label ents_1
-traits EntsRace 1 , Locked 1
-army
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-
-character	sub_faction scripts, Beechbone, named character, male, age 25, x 426, y 4, portrait Treebeard, battle_model Elephant_Crew3, label ents_2
-traits EntsRace 1, LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
-army
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-
-character	sub_faction scripts, Bregalad, named character, male, age 25, x 429, y 4, portrait Treebeard, battle_model Elephant_Crew3, label ents_3
-traits EntsRace 1, LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
-army
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-
-character	sub_faction scripts, Finglas, named character, male, age 25, x 432, y 4, portrait Treebeard, battle_model Elephant_Crew3, label ents_4
-traits EntsRace 1, LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
-army
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-
-character	sub_faction scripts, Fladrif, named character, male, age 25, x 435, y 4, portrait Treebeard, battle_model Elephant_Crew3, label ents_5
-traits EntsRace 1, LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
-army
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-
-character	sub_faction scripts, Quickbeam, named character, male, age 25, x 438, y 4, portrait Treebeard, battle_model Elephant_Crew3, label ents_6
-traits EntsRace 1, LoyaltyStarter 1 , GoodAmbusher 4 , GoodCommander 1 , Locked 1
-army
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
-unit		Ents				exp 9 armour 0 weapon_lvl 0
 
 ;#################################
 ;##### Diplomacy - Standings #####
@@ -10796,12 +10118,12 @@ faction_standings	slave,			-1.00	teutonic_order, aztecs, hre, poland, portugal, 
 ;#####################################
 
 faction_relationships 	sicily,		at_war_with 		england, spain, khand, slave
-faction_relationships	sicily,		allied_to		milan
+faction_relationships	sicily,		allied_to		milan, scotland, moors, norway, mongols, byzantium, hungary, denmark, ireland, timurids, saxons, turks, normans
 faction_relationships 	denmark,	at_war_with 		england, spain, slave
-faction_relationships	denmark,	allied_to		milan
+faction_relationships	denmark,	allied_to		milan, sicily, scotland, moors, norway, mongols, byzantium, hungary, ireland, timurids, saxons, turks, normans
 faction_relationships	denmark,	protectorate_of		sicily
 faction_relationships 	milan,		at_war_with 		aztecs, slave
-faction_relationships	milan,		allied_to		denmark, sicily, ireland
+faction_relationships	milan,		allied_to		denmark, sicily, ireland, scotland, moors, norway, mongols, byzantium, hungary, timurids, saxons, turks, normans
 faction_relationships 	england,	at_war_with 		denmark, sicily, slave
 faction_relationships 	poland,		at_war_with 		mongols, ireland, norway, timurids, slave
 faction_relationships	poland,		protectorate_of		england
@@ -10819,24 +10141,24 @@ faction_relationships	normans, allied_to		turks, saxons
 faction_relationships 	turks, at_war_with 			slave, portugal, hre
 faction_relationships	turks, allied_to			normans, saxons
 faction_relationships 	scotland, at_war_with 		slave
-faction_relationships	scotland, allied_to		moors, norway, mongols, byzantium
+faction_relationships	scotland, allied_to		moors, norway, mongols, byzantium, sicily, denmark, ireland, scotland, hungary, timurids, milan, saxons, turks, normans
 faction_relationships 	timurids, at_war_with 		slave, poland
 faction_relationships	timurids, allied_to		norway
 faction_relationships 	moors, at_war_with 			slave, venice, gundabad
-faction_relationships	moors, allied_to			scotland, hungary
+faction_relationships	moors, allied_to			scotland, hungary, norway, mongols, byzantium, sicily, denmark, ireland, timurids, milan, saxons, turks, normans
 faction_relationships 	hungary, at_war_with 		slave, portugal, gundabad
-faction_relationships	hungary, allied_to		moors, norway
+faction_relationships	hungary, allied_to		moors, norway, scotland, hungary, mongols, byzantium, sicily, denmark, ireland, timurids, milan, saxons, turks, normans
 faction_relationships 	norway, at_war_with 		slave, hre, poland
-faction_relationships	norway, allied_to			hungary
+faction_relationships	norway, allied_to			hungary, moors, scotland, mongols, byzantium, sicily, denmark, ireland, timurids, milan, saxons, turks, normans
 faction_relationships	norway, protectorate_of		moors
 faction_relationships 	saxons, at_war_with 		slave, portugal
 faction_relationships	saxons, allied_to			normans, turks
 faction_relationships 	mongols, at_war_with 		slave, poland
-faction_relationships	mongols, allied_to		norway, scotland, byzantium
+faction_relationships	mongols, allied_to		norway, scotland, byzantium, hungary, moors, sicily, denmark, ireland, timurids, milan, saxons, turks, normans
 faction_relationships 	ireland, at_war_with	 	slave, poland
-faction_relationships	ireland, allied_to		norway, milan
+faction_relationships	ireland, allied_to		norway, milan, scotland, byzantium, hungary, moors, mongols, sicily, denmark, timurids, milan, saxons, turks, normans
 faction_relationships 	byzantium, at_war_with	 	slave
-faction_relationships	byzantium, allied_to		scotland, mongols
+faction_relationships	byzantium, allied_to		scotland, mongols, norway, hungary, moors, sicily, denmark, ireland, timurids, milan, saxons, turks, normans
 faction_relationships 	teutonic_order, at_war_with	slave
 faction_relationships 	gundabad, at_war_with 		slave, moors, hungary
 faction_relationships 	hre, at_war_with 			slave, norway, saxons, turks
